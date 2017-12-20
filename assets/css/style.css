@@ -3,10 +3,10 @@ Maybe  add media query to page for sizing .
 
 */
 body{
-	background:orange;
+	background-color: #ffcc99;
 };
 
 .btn-container{ 
-	margin-top:  40rem;
+	margin-top: : 40rem;
 
 };

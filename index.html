@@ -1,47 +1,94 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Trivea Game</title>
+    <title>Trivea Game</title>
 <!--This link is for css to style my page. -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+<style>
+	.html{
+		background:url(image.jpg) no-repeat center center fixed;
+		background-size: cover;
+	}
+</style>
 </head>
 
 <body>
 
       <div class="container">
         <div class="row">
-          <h1 class="text-center" style="margin-left: 22rem;  ">Trivia Game!</h1>
-    
+          <h1 class="text-center" style="margin-left: 27rem;  ">Trivia Game!</h1>
           <div class="mainArea col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         </div>
       </div>
+    <div id="score"></div>
+        
    
-<div id="timer" style="text-align:center;"></div>
+<div id="timer" style="text-align:center; font-size: 80px; color:red; background-color:black;"> </div>
 
-
+ <hr size="3px" noshade><br>
+        <br>
+            <br>
   
+<div id="go">
+                <h1 id="btn1">What does the acronym USB stand for when referring to a computer port? <span class=" "></span></h1>
+                 <div class="custom-controls-stacked">
+  <label class="custom-control custom-radio">
+    <input id="radioStacked1" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span id="Universal Serial Bus" class="custom-control-description">Universal Serial Bus</span>
+  </label>
+  <label class="custom-control custom-radio">
+    <input id="radioStacked2" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Unified Server Board</span>
+  </label>
+</div><br><br>
+                    <h1 id="btn2">What do you call the small image icons used to express emotions or ideas in digital communication? <span class="">New</span></h1>
+                             <div class="custom-controls-stacked">
+  <label class="custom-control custom-radio">
+    <input id="radioStacked3" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Smileys</span>
+  </label>
+  <label class="custom-control custom-radio">
+    <input id="radioStacked4" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">Emoji</span>
+  </label>
+</div>
+            <h1 id="btn2">What is the world's largest ocean? <span class=""></span></h1>
+                             <div class="custom-controls-stacked">
+  <label class="custom-control custom-radio">
+    <input id="radioStacked5" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">The Pacific Ocean</span>
+  </label>
+  <label class="custom-control custom-radio">
+    <input id="radioStacked6" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">The Alantic ocean</span>
+  </label>
+</div>
+            <h1 id="btn2">In what month is the Earth closest to the sun?<span class=""></span></h1>
+                             <div class="custom-controls-stacked">
+  <label class="custom-control custom-radio">
+    <input id="radioStacked7" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">January</span>
+  </label>
+  <label class="custom-control custom-radio">
+    <input id="radioStacked8" name="radio-stacked" type="radio" class="custom-control-input">
+    <span class="custom-control-indicator"></span>
+    <span class="custom-control-description">October</span>
+  </label>
+</div>
+            </div>
 
-<div class="btn-container" style="margin-top: 10rem; margin-left: 10rem;">
-  	<div class="container">
-  		<div class="row-2" >
-			<div id="go">
-	  			<button type="button" class="btn btn-primary btn-lg" id="btn1">Large button</button>
-			  		<button type="button" class="btn btn-secondary btn-lg" id="btn2">Large button</button>
-				  	<button type="button" class="btn btn-primary2 btn-lg" id="btn3">Large button</button>	
-				<button type="button" class="btn btn-secondary2 btn-lg" id="btn4">Danger</button>
-			</div>
-		</div>		
-	</div>	
-</div>		
-		
-			
-				
 
+           			<script type="text/javascript" src="assets/javascript/app.js"></script>
 
- 			<script type="text/javascript" src="assets/javascript/app.js"></script>
-
- 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </body>
 </html>

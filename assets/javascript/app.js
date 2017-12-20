@@ -6,7 +6,7 @@
 
 window.onload = function(){
    $("#go").on("click", startclock.begin);
- 	$("#timer").text("00");
+     $("#timer").text("00");
   
 };
 
@@ -32,7 +32,7 @@ var startclock = {
 
     
   },
-	begin: function() {
+    begin: function() {
 
     if (!getSet) {
         intervalId = setInterval(startclock.count, 1000);
@@ -66,10 +66,15 @@ var startclock = {
 
     
     return  seconds;
+  
+  $("#radioStacked1").on("click",alert );
+
+ if ("#radioStacked1"){
+ 	alert(Correct);
+
   }
 
+}
 
-  
 };
-
 
