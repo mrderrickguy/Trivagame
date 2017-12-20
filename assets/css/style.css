@@ -1,0 +1,12 @@
+/* Make page look good 
+Maybe  add media query to page for sizing .
+
+*/
+body{
+	background:orange;
+};
+
+.btn-container{ 
+	margin-top:  40rem;
+
+};
